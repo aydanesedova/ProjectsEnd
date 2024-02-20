@@ -58,8 +58,8 @@ registerForm.addEventListener('submit', async (e) => {
       throw new Error('Registration failed.');
       
     }
-
-    window.location.href = "index.html";
+    alert('Qeydiyyat uğurla başa çatdı. Zəhmət olmasa daxil olun.');
+    window.location.href = "login.html";
 
   } catch (error) {
     console.error(error);
